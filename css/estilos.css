@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(215, 215, 215);
+}
+
+.Encabezado{
+   
+    background-image: url("ML.jpg");
+   
+    text-align: center; 
+    font-family: "TimesNewRoman";
+    font-size: 10px;
+    margin: 0;
+
+    color: white;
+    box-shadow: 0px 12px 20px 0px rgba(184, 244, 255, 0.219); 
+    font-weight: bold;
+    padding: 0.1cm;
+    font-size: 0.8cm;
+    margin: 0px;
+
+}
+
+.Encabezado ul, li {
+    list-style-type:none;
+    margin:0;
+    padding: 10px;
+    font-size:14px;
+ }
+ 
+.Encabezado li{
+    float: left;
+    position: relative;
+}
+
+ .Encabezado a {
+    display:block;
+    
+    /*background-color:#76808d;*/
+    color:#dbdbdb;
+    padding:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+
+ }
+
+ .Encabezado li a{
+        color: rgb(204, 204, 204); 
+        text-decoration: none;
+ }
+
+ .Encabezado li ul{
+    display: none ;
+    position: absolute ;
+    min-width: 140px;
+}
+
+.Encabezado li:hover > ul { 
+    color  : #ffffff; 
+    display: block;
+     
+}
+
+.Cuerpo{
+    margin: 100px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: "TimesNewRoman";
+}
