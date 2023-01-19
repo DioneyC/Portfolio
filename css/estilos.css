@@ -56,8 +56,7 @@ body{
 
 .Encabezado li:hover > ul { 
     color  : #ffffff; 
-    display: block;
-     
+    display: block;  
 }
 
 .Cuerpo{
