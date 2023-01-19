@@ -34,46 +34,30 @@
         <div class="Cuerpo">
             <h4> Correo : csdioney@gmail.com </h4>    
             <!--<form enctype="text/plain" action="mailto:csdioney@gmail.com" method="POST">  -->
-            
-            <form action="https://formsubmit.co/csdioney@gmail.com" method="POST">
-            <label > Nombre  </label> 
-            <input type = "text" name = "nombre" size="50"/> <br/>
-            <label > Correo  </label> 
-            <input type = "text" name = "correo" size="50"/> <br/>
-            <label > Mensaje  </label> 
-            <input type = "text" name = "correo" size="50"/> <br/>
-            <label for="fecha_nac"> fecha_nac: </label>
-            <label> año </label>
-            <select name = "fecha"> 
-                <option value="1999"> 1999 </option>
-                <option value="2000"> 2000 </option>
-                <option value="2001"> 2001 </option>
-                <option value="2002"> 2002 </option>
-                <option value="2003"> 2003 </option>
-            </select>
-            <label> mes </label>
-            <select name = "fecha"> 
-                <option value="enero"> enero </option>
-                <option value="febrero"> febrero </option>
-                <option value="marzo"> marzo </option>
-                <option value="abril"> abril </option>
-                <option value="mayo"> mayo </option>
-                <option value="junio"> junio </option>
-                <option value="julio"> julio </option>
-                <option value="agosto"> agosto </option>
-                <option value="septiembre"> septiembre </option>
-                <option value="octubre"> octubre </option>
-                <option value="noviembre"> noviembre </option>
-                <option value="diciembre"> diciembre </option>
-            </select><br/><br/>
-            <label for="sexo"> sexo: </label>
-            <input type="radio" name="sexo" value="hombre"/>
-            <label> hombre </label>
-            <input type="radio" name="sexo" value="mujer"/>
-            <label> mujer </label> <br/>
+    
+            <div class = "Form">
+                <form action="/action_page.php">
+                  <label for="fname">Name </label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name...">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia"> México </option>
+                    <option value="canada"> Colombia </option>
+                    <option value="usa"> Chile </option>
+                    <option value="usa"> Otro </option>
+                  </select>
+                  <label for="fname"> Message </label>
+                  <input type="text" id="message" name="message" placeholder="Message...">
+                  <input type="submit" value="Submit">
+                  <input type="reset" value="Reset">
 
-            <input type="submit" value="send">
-            <input type="reset" value="reset">
+                </form>
+            </div>
+   
     </body>
 
 </html>
