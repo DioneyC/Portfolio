@@ -2,17 +2,22 @@
 <html lang="en"> 
 
     <head>
+        
         <title> Portafolio </title> 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel = "stylesheet" href="css/estilos.css"> 
+        <script src="https://kit.fontawesome.com/4e9ce45b74.js" crossorigin="anonymous"></script>
+    
     </head>
     <body> 
 
         <section class="Encabezado"> 
+            
+            <!--
             <div> <ul> 
-                <!--<li> <a href="index.html">  About me  </a> </li>-->
+                
                 <li> <a href="projects.html"> Projects  </a> </li>
                 <li> <a href=""> Social</a>   
                     <ul id="labels">
@@ -24,72 +29,122 @@
                 </li>
                 <li> <a href="contact.html"> Contact </a> </li> </ul>  
             </div> 
-            
-            <div id="personal">   
-                <h1> Dioney Alberto Contreras Sanchez</h1>
-                <h4> Data Scientist, M.Sc. Digital Systems </h4>   
+            -->
+
+            <div id="profile">   
+               
+                <h3> Dioney Alberto Contreras Sanchez</h3>
+                <h5> Data Scientist, M.Sc. Digital Systems, Tech Passionate </h5>   
 
             </div>  
-        </section>
-    
-        <div class="Cuerpo">
+
+            <div id="personal"> 
+                <!-- <h1> Contact</h1> -->
+                
+                <p> Mail: csdioney@gmail.com </p> 
+                <p> Country: México </p>
+                <p> Phone: +52 668-1687660 </p>
             
-            <h2> Profile </h2> 
-
-            <p> Mechatronic Engineer with Masters's degree in Digital Systems. 
-                My Master's thesis was oriented to apply deep learning techniques (CNN and LSTM) to 
-                detect variable stars (astronomy application). 
-            </p>
-            <p>
-                I Have worked in multidisciplinary teams on projects related to Marketing Mix Modeling,
-                 Pricing Optimization, and Anti Money Laundering.
-            </p>
-
-            <p> I consider myself as a dinamic person. In my childhood, I dreamed with work in a science area, 
-                working as a scientis or a chemical researcher. Compromise is one of my strongest attributes, but  
-            </p> 
-
-            <p> My principal interest area are Machine Learning, Data Science and Application Deployment, more specifically MLops, 
-                but I'm interested in web development, more specifically in backend with python. </p>      
-        
-        <h2> Skills </h2> 
-
-        <div class="Skills_global"> 
-            <div class="Skills">  
-                <ul> 
-                    <p> Hard Skills </p>
-
-                    <li> Python </li>
-                    <li> Machine Learning </li>
-                    <li> HTML </li>
-                    <li> CSS </li>
-                    <li> Javascript </li>
-    
-                </ul>
-            </div>
-            <div class="Skills"> 
-                <ul> 
-                    <p> Soft Skills </p>
-
-                    <li> Communication </li>
-                    <li> Workteam </li>
-                    <li> Colaboration </li>
-                    <li> Leadership </li>
-                    <li> Work under pressure </li>
-    
-                </ul>
             </div>
 
-        </div>
+            <div id = "iconos"> 
 
+                <button onclick="window.location.href = 'https://github.com/DioneyC'"> <i class="fa-brands fa-github"></i> </button>
+                <button onclick="window.location.href = 'https://www.linkedin.com/in/dioneycs/'"> <i class="fa-brands fa-linkedin"> </i> </button>
+                <button onclick="window.location.href = 'https://www.youtube.com/channel/UCYyTn9oN3iWFkFe8NLSJ61Q'"> <i class="fa-brands fa-youtube"></i> </button>
+                <button onclick="window.location.href = 'https://twitter.com/Dioneycs'"><i class="fa-brands fa-square-twitter"> </i></button> 
+                <button onclick="window.location.href = 'https://www.instagram.com/dialcsa/'"><i class="fa-brands fa-instagram"></i> </i></button> 
+
+            </div>
+
+
+        </section>
         
-        
-        </div>
+        <section class="Profile"> 
+            
+                <div class="Cuerpo">
+                    <h2> Profile </h2> 
+
+                    <p> Mechatronic Engineer with Masters's degree in Digital Systems. 
+                        My Master's thesis was oriented to apply deep learning techniques (CNN and LSTM) to 
+                        detect variable stars (astronomy application). 
+                    </p>
+                    <p>
+                        I Have worked in multidisciplinary teams on projects related to Marketing Mix Modeling,
+                        Pricing Optimization, and Anti Money Laundering.
+                    </p>
+
+                    <p> I consider myself as a dinamic person. In my childhood, I dreamed with work in a science area, 
+                        working as a scientis or a chemical researcher. Compromise is one of my strongest attributes, but  
+                    </p> 
+
+                    <p> My principal interest area are Machine Learning, Data Science and Application Deployment, more specifically MLops, 
+                        but I'm interested in web development, more specifically in backend with python. </p>      
+                
+                </div>
 
 
+                <div class="Skills_global"> 
+                    
+                    <h2> Skills </h2> 
+                    <div class="Skills">   
+                        
+                        <ul> 
+                            <p> Hard Skills </p>
 
+                            <li> Python </li>
+                            <li> Machine Learning </li>
+                            <li> HTML </li>
+                            <li> CSS </li>
+                            <li> Javascript </li>
+            
+                        </ul>
+                    </div>
+
+                    <div class="Skills">
+                        <ul> 
+                            <p> Soft Skills </p>
+
+                            <li> Communication </li>
+                            <li> Workteam </li>
+                            <li> Colaboration </li>
+                            <li> Leadership </li>
+                            <li> Work under pressure </li>
+            
+                        </ul>
+                    </div>
+                </div>
+         
+
+        </section>
+
+
+        <section class="Comments">
+            <h2> Contact </h2> 
+            <p> If you wanna send me a message please fill the follow form:</p>
+            <div class = "Form">
+                <form action="/action_page.php">
+                <label for="fname">Name </label> <br/>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..."><br/>
+            
+                <label for="lname">Last Name</label><br/>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..."><br/>
+            
+                <label for="country">Country</label><br/>
+                <select id="country" name="country">
+                    <option value="australia"> México </option>
+                    <option value="canada"> Colombia </option>
+                    <option value="usa"> Chile </option>
+                    <option value="usa"> Otro </option>
+                </select> <br/>
+    
+                <label for="fname"> Message </label> <br/>
+                <input type="text" id="message" name="message" placeholder="Message..."> <br/>
+                <input type="submit" value="Submit"> 
+                <input type="reset" value="Reset">
+
+                </form>
+                </section> 
     </body>
-
-
 
 </html>

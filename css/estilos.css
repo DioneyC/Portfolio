@@ -6,7 +6,16 @@ body{
     font-size: 20px;
     text-align: center;
     margin-top: 3%;
+    width: 100%;
 }
+
+#profile{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+    width: 30%;
+}
+
 .Encabezado{
    
     background-image: url("ML.jpg");
@@ -19,7 +28,7 @@ body{
     color: white;
     box-shadow: 0px 12px 20px 0px rgba(184, 244, 255, 0.219); 
     font-weight: bold;
-    padding: 1.3cm;
+    padding: 0.8cm;
     font-size: 0.8cm;
     margin: 0px;
 }
@@ -70,13 +79,14 @@ body{
 }
 
 input[type=text], select {
-width: 100%;
+align-items: center;
+width: 50%;
 padding: 12px 20px;
 margin: 8px 0;
-display: inline-block;
+/*display: inline-block;*/
 border: 1px solid #ccc;
 border-radius: 4px;
-box-sizing: border-box;
+/*box-sizing: border-box;*/
 }
 
 input[type=submit] {
@@ -108,20 +118,63 @@ input[type=reset]:hover {
     background-color: #92c695;
 }
 
+.Profile{
+    display: flex;
+    align-items: center;
+}
+
 .Cuerpo{
     font-size: larger;
-    margin: 70px;
+    margin: 50px;
     text-align: justify;
     color: rgb(0, 0, 0);
     font-family: "futura";
+    width: 70%;
+}
+
+.Skills_global{
+    align-items: center;
+    width: 50%;
+    flex-direction: row;
+
+    font-size: larger;
 }
 
 .Skills{
-    font-weight: bold;
     float: left;
-    width: 40%;
+    width: 50%;
     font-size: larger;
+    flex-direction: row;
 }
-.Skills_global{
+
+button{
     align-items: center;
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 1%;
+    transition: .3s ease all;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#iconos{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Comments{
+    align-items: center;
+    width: 70%;
+    margin: 3%;
+
+
 }
