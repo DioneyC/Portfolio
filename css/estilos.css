@@ -47,8 +47,6 @@ body{
 
  .Encabezado a {
     display:block;
-    
-    /*background-color:#76808d;*/
     color:#dbdbdb;
     padding:0px;
     margin-right:0px;
@@ -73,6 +71,19 @@ body{
 }
 
 
+
+
+
+.Comments{
+    align-items: center;
+    width: 70%;
+    /*margin: 3%;*/
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+
 .Form{
      padding: 20px;
      text-align: left;
@@ -80,17 +91,16 @@ body{
 
 input[type=text], select {
 align-items: center;
-width: 50%;
+width: 60%;
 padding: 12px 20px;
 margin: 8px 0;
-/*display: inline-block;*/
+display: inline-block;
 border: 1px solid #ccc;
 border-radius: 4px;
-/*box-sizing: border-box;*/
 }
 
 input[type=submit] {
-width: 30%;
+width: 20%;
 background-color: #4CAF50;
 color: white;
 padding: 14px 20px;
@@ -101,7 +111,7 @@ cursor: pointer;
 }
 
 input[type=reset] {
-    width: 30%;
+    width: 20%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -171,10 +181,12 @@ button{
     justify-content: center;
 }
 
-.Comments{
+#icono2{
     align-items: center;
-    width: 70%;
-    margin: 3%;
-
-
+    display: none;
+    position: absolute ;
+    float: left;
+}
+i{
+    font-size: 30px;
 }
