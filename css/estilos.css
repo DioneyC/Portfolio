@@ -7,14 +7,14 @@ body{
   }
 
 #personal{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin-top: 3%;
     width: 100%;
 }
 
 #profile{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin-top: 3%;
     width: 30%;
@@ -192,5 +192,5 @@ button{
     float: left;
 }
 i{
-    font-size: 50px;
+    font-size: 30px;
 }
