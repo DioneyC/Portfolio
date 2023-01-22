@@ -29,7 +29,7 @@ body{
 }
 
 .contenido{
-    height:50%;
+    height: 50%;
     margin: 10px;
     float:left;
 }
@@ -85,20 +85,57 @@ body{
     display: block;  
 }
 
+/* AQUI COMIENZA EL CUERPO */
+
+.Profile{
+    display: flex;
+    align-items: center;
+}
+
+#icono2{
+    text-align: center;
+    float: left;
+}
+
+.Cuerpo{
+    font-size: larger;
+    margin: 50px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: "futura";
+    width: 50%;
+}
+
+.Skills_global{
+    margin: 50px;
+    text-align: justify;
+    align-items: center;
+    width: 50%;
+    flex-direction: row;
+    font-size: larger;
+}
+
+.Skills{
+    float: left;
+    font-size: larger;
+    flex-direction: row;
+}
+
 /* Aquí se colocan los comentarios */
 
 .Comments{
-    align-items: center;
-    width: 70%;
     text-align: left;
-    margin-left: 2%;
-    margin-right: 3%;
-}
-
+    font-size: 20px;
+    align-items: center;
+    width: 100%;
+    margin-left: 3%;
+    }
 
 .Form{
      padding: 20px;
      text-align: left;
+     margin-left: 15%;
+     margin-right: 15%;
 }
 
 input[type=text], select {
@@ -113,7 +150,7 @@ border-radius: 4px;
 
 input[type=submit] {
 width: 20%;
-background-color: #4CAF50;
+background-color: #004c78;
 color: white;
 padding: 14px 20px;
 margin: 8px 0;
@@ -124,7 +161,7 @@ cursor: pointer;
 
 input[type=reset] {
     width: 20%;
-    background-color: #4CAF50;
+    background-color: #004c78;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -134,39 +171,18 @@ input[type=reset] {
     }
 
 input[type=submit]:hover {
-background-color: #92c695;
+background-color: #0382cb;
 }
 input[type=reset]:hover {
-    background-color: #92c695;
+    background-color: #0382cb;
 }
 
-.Profile{
-    display: flex;
-    align-items: center;
-}
+#coms{
+    padding: 14px 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    height: 100px;
 
-.Cuerpo{
-    font-size: larger;
-    margin: 50px;
-    text-align: justify;
-    color: rgb(0, 0, 0);
-    font-family: "futura";
-    width: 70%;
-}
-
-.Skills_global{
-    align-items: center;
-    width: 50%;
-    flex-direction: row;
-
-    font-size: larger;
-}
-
-.Skills{
-    float: left;
-    width: 50%;
-    font-size: larger;
-    flex-direction: row;
 }
 
 button{
@@ -187,12 +203,7 @@ button{
     justify-content: center;
 }
 
-#icono2{
-    align-items: center;
-    display: none;
-    position: absolute ;
-    float: left;
-}
+
 i{
     font-size: 30px;
 }
